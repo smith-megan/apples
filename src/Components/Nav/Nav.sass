@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
+
+$link: #1C4638
+$background: #bbe3eb
+$text-box: #FFF
+$strong-background: #1C4638
+$text-color: #FFF
+$highlight-color: #b40d0d
+
+.nav-links
+  text-align: center
+  font-size: 1.5em
+  font-weight: 500
+  text-decoration: none
+  color: $link
+  transition: 1s
+
+.nav-links:hover
+  color: lighten($link, 20%)
+
+.App-header 
+  text-align: left
+  align-items: center
+  background-color: $text-box
+  padding: 2%
+  display: grid
+  grid-template-columns: 6fr 1fr 1fr
+
+.App-logo-div
+  display: grid
+  grid-template-columns: .5fr 10fr
+  text-align: left
+  align-self: center
+
+.Apple-logo
+  height: 8vh 
+  pointer-events: none
+  align-content: center
+
+.Apple-words
+  color: $highlight-color
+  font-family: 'Merienda', cursive
+  font-size: 2.4em
+  align-self: center
+  padding-left: 2%
+  text-decoration: none

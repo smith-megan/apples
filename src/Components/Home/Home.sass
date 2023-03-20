@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
+$link: #1C4638
+$background: #bbe3eb
+$text-box: #FFF
+$strong-background: #1C4638
+$text-color: #FFF
+$highlight-color: #b40d0d
+
+.home
+  display: grid
+  width: 100%
+  min-height: 70vh
+
+.home-text
+  display: grid
+  justify-self: center
+  align-self: center
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr))
+  background-color: white
+  width: 70%
+  padding: 2%
+  border-radius: 5px
+
+.home-image
+  align-self: center
+  background-image: url("../../Images/barn.png")
+  background-repeat: no-repeat
+  background-position: center
+  background-size: contain
+  height: 50vh
+
+.home-details
+  display: grid
+  justify-self: center
+  align-self: center
+  align-items: center
+  justify-items: center
+  width: 100%
+  height: 70%
+  padding: 0px
+  margin: 0px
+  grid-template-rows: repeat(minmax(300px, 1fr))
+
+.home-title
+  color: $strong-background
+  font-family: 'Merienda', cursive
+  font-size: 2em
+  align-self: center
+  text-decoration: none
+
+.home-button
+  justify-self: center
+  align-self: center
+  width: 60%

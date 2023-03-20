@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap");
+.App {
+  background-color: #bbe3eb;
+  text-align: center;
+}
+
+.shop-master-div {
+  display: -ms-grid;
+  display: grid;
+  padding: 4%;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5%;
+}
+
+.shop-item-div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 65% 35%;
+      grid-template-columns: 65% 35%;
+}
+
+.shop-item-info {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #FFF;
+  height: 70%;
+}
+
+.shop-item-info-details {
+  text-align: left;
+  padding: 7%;
+  padding-left: 10%;
+}
+
+.search-div {
+  margin: 4%;
+  padding: 2%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 25% 75%;
+      grid-template-columns: 25% 75%;
+  margin-bottom: 0;
+  border-radius: 10px;
+  background-color: #1C4638;
+  color: #FFF;
+}
+
+.search-title {
+  padding: 2%;
+  font-size: 1.5em;
+  font-family: 'Merienda', cursive;
+  border-right: 2px solid #FFF;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.search-form-options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-form-options-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.small-input {
+  padding: 1%;
+  width: 50px;
+}
+
+.shop-item-title {
+  cursor: pointer;
+  color: #1C4638;
+}
+
+.search-btn {
+  color: #1C4638;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  width: 70%;
+  border-radius: 5px;
+  font-family: 'Merienda', cursive;
+  font-size: 1.7em;
+  border: none;
+  cursor: pointer;
+  padding: 2%;
+}
+/*# sourceMappingURL=View.css.map */

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap');
+
+$background: #bbe3eb
+$text-box: #FFF
+$strong-background: #1C4638
+$text-color: #FFF
+$highlight-color: #b40d0d
+
+.App
+  background-color: $background
+  text-align: center
+
+.shop-master-div
+  display: grid
+  padding: 4%
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5%
+
+.shop-item-div
+  align-items: center
+  display: grid
+  grid-template-columns: 65% 35%
+
+.shop-item-info
+  border-top-right-radius: 10px
+  border-bottom-right-radius: 10px
+  background-color: $text-box
+  height: 70%
+
+.shop-item-info-details
+  text-align: left
+  padding: 7%
+  padding-left: 10%
+
+.search-div
+  margin: 4%
+  padding: 2%
+  display: grid
+  grid-template-columns: 25% 75%
+  margin-bottom: 0
+  border-radius: 10px
+  background-color: $strong-background
+  color: $text-color
+
+.search-title
+  padding: 2%
+  font-size: 1.5em
+  font-family: 'Merienda', cursive
+  border-right: 2px solid $text-color
+  align-self: center
+
+.search-form-options
+  display: grid
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+  align-items: center
+
+.search-form-options-column
+  display: flex
+  align-items: center
+  justify-content: center
+
+.small-input
+  padding: 1%
+  width: 50px
+
+.shop-item-title
+  cursor: pointer
+  color: $strong-background
+
+.search-btn
+  color: $strong-background
+  justify-self: center
+  width: 70%
+  border-radius: 5px
+  font-family: 'Merienda', cursive
+  font-size: 1.7em
+  border: none
+  cursor: pointer
+  padding: 2%

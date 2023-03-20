@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap");
+.home {
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  min-height: 70vh;
+}
+
+.home-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  background-color: white;
+  width: 70%;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.home-image {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-image: url("../../Images/barn.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 50vh;
+}
+
+.home-details {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-grid-row-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 70%;
+  padding: 0px;
+  margin: 0px;
+  -ms-grid-rows: ()[minmax];
+      grid-template-rows: repeat(minmax(300px, 1fr));
+}
+
+.home-title {
+  color: #1C4638;
+  font-family: 'Merienda', cursive;
+  font-size: 2em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-decoration: none;
+}
+
+.home-button {
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 60%;
+}
+/*# sourceMappingURL=Home.css.map */

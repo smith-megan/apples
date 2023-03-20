@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap");
+.nav-links {
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 500;
+  text-decoration: none;
+  color: #1C4638;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.nav-links:hover {
+  color: #398f72;
+}
+
+.App-header {
+  text-align: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFF;
+  padding: 2%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 6fr 1fr 1fr;
+      grid-template-columns: 6fr 1fr 1fr;
+}
+
+.App-logo-div {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: .5fr 10fr;
+      grid-template-columns: .5fr 10fr;
+  text-align: left;
+  -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.Apple-logo {
+  height: 8vh;
+  pointer-events: none;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.Apple-words {
+  color: #b40d0d;
+  font-family: 'Merienda', cursive;
+  font-size: 2.4em;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  padding-left: 2%;
+  text-decoration: none;
+}
+/*# sourceMappingURL=Nav.css.map */

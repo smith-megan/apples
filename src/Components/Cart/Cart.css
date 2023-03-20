@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Merienda:wght@600&display=swap");
+.cart-master-div {
+  display: -ms-grid;
+  display: grid;
+  padding: 4%;
+}
+
+.cart-div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: .5%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 15% 85%;
+      grid-template-columns: 15% 85%;
+}
+
+.cart-info {
+  display: -ms-grid;
+  display: grid;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #FFF;
+  height: 80%;
+}
+
+.cart-info-details {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -ms-grid-row-align: center;
+      align-self: center;
+  text-align: left;
+  padding: 5%;
+}
+
+.cart-title {
+  color: #b40d0d;
+  font-family: 'Merienda', cursive;
+  font-size: 2em;
+}
+
+.cart-submit-form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  background-color: #1C4638;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 10px;
+  color: #FFF;
+  text-align: center;
+  padding: 2%;
+  width: 70%;
+}
+
+.add-remove-btn {
+  border-radius: 5px;
+  padding: 3%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.checkout-btn {
+  color: #b40d0d;
+  border-radius: 5px;
+  font-family: 'Merienda', cursive;
+  font-size: 1.7em;
+  border: none;
+  cursor: pointer;
+  padding: 2%;
+}
+/*# sourceMappingURL=Cart.css.map */
